@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>418</width>
-    <height>421</height>
+    <width>785</width>
+    <height>600</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,10 +17,10 @@
    <widget class="QGroupBox" name="groupBox">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>40</x>
+      <y>40</y>
       <width>331</width>
-      <height>371</height>
+      <height>291</height>
      </rect>
     </property>
     <property name="font">
@@ -78,7 +78,7 @@
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>80</y>
+       <y>90</y>
        <width>201</width>
        <height>16</height>
       </rect>
@@ -103,8 +103,8 @@
     <widget class="QPushButton" name="btn2">
      <property name="geometry">
       <rect>
-       <x>10</x>
-       <y>330</y>
+       <x>20</x>
+       <y>230</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -116,8 +116,8 @@
     <widget class="QPushButton" name="btn3">
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>330</y>
+       <x>130</x>
+       <y>230</y>
        <width>75</width>
        <height>23</height>
       </rect>
@@ -129,50 +129,14 @@
     <widget class="QPushButton" name="btn4">
      <property name="geometry">
       <rect>
-       <x>230</x>
-       <y>330</y>
+       <x>240</x>
+       <y>230</y>
        <width>75</width>
        <height>23</height>
       </rect>
      </property>
      <property name="text">
       <string>Cerrar</string>
-     </property>
-    </widget>
-    <widget class="QPlainTextEdit" name="plainTextEdit">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>190</y>
-       <width>291</width>
-       <height>121</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>160</y>
-       <width>191</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Datos de Informacion</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="lbl1">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>100</y>
-       <width>201</width>
-       <height>16</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
      </property>
     </widget>
    </widget>

@@ -21,5 +21,14 @@ class interfaz (QMainWindow):
 
     def cerrar(self):
         self.close()
-
+    
+    def nombreCmb(self):
+        layers = QgsProject.instance().mapLayers().values()
+        for layer in layers:
+            if layer.type() == QgsMapLayer.VectorLayer and layer.geometryType() == QgsWkbTypes.PolygonGeometry:
+                nomVLayer = layer.name()
+                self.ui.lbl1.addItem(nomVLayer)
+            if layer.type()==QgsRasterLayer.RasterLayer:
+                nomRLayer = layer.name()
+                self.ui.lbl1.addItem(nomRLayer)
          

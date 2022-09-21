@@ -36,7 +36,7 @@ class mainMenu:
                 rLayer = layer
                 self.dialogo.ui.comboBox.addItem(rLayer.name())
                 epsg = rLayer.crs()
-                self.dialogo.ui.label.setText(self,epsg)
+                self.dialogo.ui.label.setText(str(epsg.authid()))
          
     def unload(self):
         self.IMenu.DeleteLater()
